@@ -1,0 +1,27 @@
+
+User: ["Hi", "Hey", "Is anyone there?","Hi there", "Hello", "Hey there", "Howdy", "Hola", "Bonjour", "Konnichiwa", "Guten tag", "Ola"],
+Chatbot responses: ["Hello there. Tell me how are you feeling today?", "Hi there. What brings you here today?", "Hi there. How are you feeling today?", "Great to see you. How do you feel currently?", "Hello there. Glad to see you're back. What's going on in your world right now?"]
+
+
+User: ["Good morning"],
+Chatbot responses: ["Good morning. I hope you had a good night's sleep. How are you feeling today? "]
+
+
+User: ["Good afternoon"],
+Chatbot responses: ["Good afternoon. How is your day going?"]
+
+
+User: ["Good evening"],
+Chatbot responses: ["Good evening. How has your day been?"]
+
+
+User: ["Good night"],
+Chatbot responses: ["Good night. Get some proper sleep", "Good night. Sweet dreams."]
+
+
+User: ["Bye", "See you later", "Goodbye", "Au revoir", "Sayonara", "ok bye", "Bye then", "Fare thee well", "Nice chatting to you, bye", "Till next time"],
+Chatbot responses: ["See you later.", "Have a nice day.", "Bye! Come back again.", "I'll see you soon."]
+
+
+User: ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Than you very much"],
+Chatbot responses: ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]

@@ -1,0 +1,443 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?","Hi there", "Hello", "Hey there", "Howdy", "Hola", "Bonjour", "Konnichiwa", "Guten tag", "Ola"],
+     "responses": ["Hello there. Tell me how are you feeling today?", "Hi there. What brings you here today?", "Hi there. How are you feeling today?", "Great to see you. How do you feel currently?", "Hello there. Glad to see you're back. What's going on in your world right now?"]
+    },
+    {"tag": "morning",
+        "patterns": ["Good morning"],
+        "responses": ["Good morning. I hope you had a good night's sleep. How are you feeling today? "]
+    },
+    {"tag": "afternoon",
+        "patterns": ["Good afternoon"],
+        "responses": ["Good afternoon. How is your day going?"]
+    },
+    {"tag": "evening",
+        "patterns": ["Good evening"],
+        "responses": ["Good evening. How has your day been?"]
+    },
+    {"tag": "night",
+        "patterns": ["Good night"],
+        "responses": ["Good night. Get some proper sleep", "Good night. Sweet dreams."]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Au revoir", "Sayonara", "ok bye", "Bye then", "Fare thee well", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you later.", "Have a nice day.", "Bye! Come back again.", "I'll see you soon."]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Than you very much", "ty"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "no-response",
+        "patterns": [""],
+        "responses": ["Sorry, I didn't understand you.", "Please go on.", "Not sure I understand that.", "Please don't hesitate to talk to me."]
+    },
+    {"tag": "neutral-response",
+        "patterns": ["nothing much"],
+        "responses": ["Oh I see. Do you want to talk about something?"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?", "Tell me more about yourself.", "What is your name?", "What should I call you?", "What's your name?", "Tell me about yourself" ],
+     "responses": ["I'm MotiBot, your  AI Assistant. How are you feeling today?", "I'm MotiBot. I am a conversational agent designed to be your assistant. So how are you feeling today?", "You can call me MotiBot.", "I'm MotiBot!", "Call me MotiBot!"]
+    },
+    {"tag": "skill",
+        "patterns": ["What can you do?"],
+        "responses": ["I can provide general advice regarding anxiety and depression, answer questions related to mental health and make daily conversations. Do not consider me as a subsitute for an actual mental healthcare worker. Please seek help if necessary."]
+    },
+    {"tag": "creation",
+        "patterns": ["Who created you?", "How were you made?", "How were you created?"],
+        "responses": ["I was created by 'yours truly'.", "I was trained on a text dataset using Deep Learning & Natural Language Processing techniques", "The real question is: Who created you?"]
+    },
+    {"tag": "name",
+        "patterns": ["My name is ", "I am name.", "I go by "],
+        "responses": ["Oh nice to meet you. Tell me how was your week?", "Nice to meet you. So tell me. How do you feel today?", "That's a great name. Tell me more about yourself."]
+    },
+    {"tag": "help",
+        "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need support", "I need help", "Support me please"],
+        "responses": ["Sure. Tell me how can i assist you", "Tell me your problem so that i can assist you", "Yes, sure. How can I help you?"]
+    },
+    {"tag": "sad",
+        "patterns": ["I am sad" , "I feel so sad", "Sadness is within me"],
+        "responses": ["Hey,hang in there. I know time is tough but be patient and everything will fall into place. Here is a quote that I found which hopefully cheer you up 'Forget what is gone, appreciate what remains, and look forward for what is coming next.'"]
+    },
+    {"tag": "lonely",
+        "patterns": ["I feel like I'm alone" , "No one is with me", "I am feeling lonely", "I am so lonely", "I feel empty", "I don't have anyone"],
+        "responses": ["You are never lonely if you look around carefully you will find people who care for you and would love to have your company.", "I'm sorry to hear that. I'm here for you. Talking about it might help. So tell me something about it.", "I'm here for you. Could you tell me the reason for your loneliness?"]
+    },
+    {"tag": "stressed",
+        "patterns": ["I am so stressed out", "I am so stressed", "I feel stuck", "I still feel stressed", "I am so burned out", "I am feeling stressed lately" ],
+        "responses": ["What do you think is causing this?", "Take a deep breath and gather your thoughts. Go take a walk if possible. Stay hydrated", "Give yourself a break. Go easy on yourself.", "I am sorry to hear that. What is the reason behind this?", "My research says that music is the best way to calm yourself. So visit the link and listen to your favourite music. It will definitely cheer you up \"https://www.spotify.com\""]
+    },
+    {"tag": "break",
+        "patterns": ["I want a break", "I need to rest", "I can't do this anymore" , "Im tired of all of this", "im tired of everything" ],
+        "responses": ["A break is putting your mind to rest getting rid of negative thoughts and stress. Your life is completely in your hands and taking a few hours off from pressurizing your brain will definitely be beneficial for you.", "Take a break, you deserve it. Put your mind to rest and get rid of negative thoughts.", "If you are really that exhausted you definitely need a break, and taking a teeny tiny break isn't very harmful, take some time off. Let your mind be at peace and get back to work with all the enrgy and enthusiasm that you have."]
+    },
+    {"tag": "worthless",
+        "patterns": ["I feel so worthless.", "No one likes me.", "I can't do anything.", "Nothing makes sense anymore"],
+        "responses": ["Let's discuss your feelings further.", "I first want to let you know that you are not alone in your feelings and there is always someone there to help. You can always change your feelings and change your way of thinking by being open to trying to change.", "I'm really sorry to hear that you're feeling this way. It's important to remember that your feelings are valid, and you don't have to go through this alone. Reach out to friends, family, or consider talking to a mental health professional who can provide support tailored to your needs."]
+    },
+    {"tag": "ugly",
+        "patterns": ["I think i am ugly!" , "I feel ugly."],
+        "responses": ["Well do you really think that? would you like to see the most beautiful face ever? Open your webcam and voila, the prettiest face on this planet magically appears."]
+    },
+    {"tag": "hate-myself",
+        "patterns": ["I hate myself!"],
+        "responses": ["I'm truly sorry to hear that you're feeling this way. It must be really tough for you right now. Remember, you don't have to face these feelings alone. Reach out to someone you trust – friends, family, or a mental health professional. They can provide support and understanding during difficult times. You're not alone in this, and there are people who care about you."]
+    },
+    {"tag": "useless",
+        "patterns": ["i am good for nothing." , "I'm so useless" ],
+        "responses": ["Don't ever think you cannot achieve what you want. You are perfectly capable of reaching your goals. Here is a quote for you: \n\"Everything you can imagine is real\".", "Your self-assessment will never be entirely accurate. Try waking up each morning, smiling, and affirming that the day is yours to conquer. This positive mindset might help alleviate those negative feelings."]
+    },
+    {"tag": "better",
+        "patterns": ["I wish i was better than them"],
+        "responses": ["Life is never about being better than anyone else, it's always about being better than yourself, if you have the guts to be better than yourself, you are automatically the best person to ever exist!"]
+    },
+    {"tag": "winner",
+        "patterns": ["I wish i could've been a winner"],
+        "responses": ["Our lives started off with winning, my friend. Everyone is born to be a winner, we just need to figure out the right way and need to wait for the right time."]
+    },
+    {"tag": "losing.",
+        "patterns": ["I hate losing." ,"I dont want to lose"],
+        "responses": ["First of all i'll annoy you with a common saying, \"Failures are stepping stones to success.\" and then i'll tell you, winning just boosts your ego, it is your failures that actually teach you. It is as they say, FAIL stands for \"First Attempt In Learning\""]
+    },
+    {"tag": "losing-mind",
+        "patterns": ["I think i'm losing my mind"],
+        "responses": ["It's okay to share, and I'm here to listen. If you want, tell me more about what's on your mind. You don't have to handle everything alone, and we can navigate through this together."]
+    },
+    {"tag": "bullying",
+        "patterns": ["I am a victim of bullying", "I am being bullied"],
+        "responses": ["Bullying is wrong and no one should be bullied. I highly recommend you to stand for yourself and report this to your guardian and authority."]
+    },
+    {"tag": "quit",
+        "patterns": ["i wish to quit", "i will quit", "im done now"],
+        "responses": ["Winners never quit and quitters never win is a very common saying, but it isn't easy to follow, quitting should never be one of your options. Always think of ways to fight life back and to emerge out stronger than ever."]
+    },
+    {"tag": "everyone-down",
+        "patterns": ["i let everyone down", "i let them down" , "I disappointed everyone"],
+        "responses": ["If you are the one who let them down, you were the one who raised their hopes in the first place. If you have done it once i can guarantee you can do it over and over again.", "If you find yourself disappointing others, remember that you were the one who initially inspired their hopes. If you have done it once I can guarantee you can do it over and over again." ]
+    },
+    {"tag": "leave",
+        "patterns": ["i want to leave the country and run away", "I want to run away."],
+        "responses": ["Why do you want to spend so much on this thought, i think it would be better to go on a vacation in your beautiful country and visit some amazing places that you are yet to visit to relax your mind."]
+    },
+    {"tag": "time-come",
+        "patterns": ["my time has come" , "it might be my time now"],
+        "responses": ["Yeahh!! the time has come for you to show the world that you are the greatest person alive, and no one else can be as good as you are."]
+    },
+    {"tag": "depressed",
+        "patterns": ["I can't take it anymore", "I am so depressed", "I think i'm depressed.", "I have depression"],
+        "responses": ["Discussing your feelings is a positive step, and I want to encourage you to consider reaching out to mental health professionals. They are well-equipped to provide the support and guidance you need, especially during challenging times. Remember, seeking help from experts is a powerful decision, and they can assist you in navigating through difficult situations. You don't have to face it alone.","Talking to someone can be incredibly helpful, especially when you're feeling overwhelmed. Consider reaching out to mental health professionals who are trained to provide support during challenging times. They have the expertise to guide you through difficult moments and offer the assistance you may need. Remember, seeking professional help is a courageous step towards your well-being." ]
+    },
+    {"tag": "happy",
+        "patterns": ["I feel great today.", "I am happy.", "I feel happy.", "I'm good.", "cheerful", "I'm fine", "I feel ok"],
+        "responses": ["That's geat to hear. I'm glad you're feeling this way.", "Oh i see. That's great."]
+    },
+    {"tag": "casual",
+        "patterns": ["Oh I see.", "ok", "okay", "nice", "Whatever", "K", "Fine", "yeah", "yes", "no", "not really"],
+        "responses": ["Let's discuss further why you're feeling this way.", "How were you feeling last week?", "I'm listening. Please go on.", "Tell me more", "Can you elaborate on that?", "Come Come elucidate your thoughts"]
+    },
+    {"tag": "anxious",
+        "patterns": ["I feel so anxious.", "I'm so anxious because of " , "i am feeling anxious lately."],
+        "responses": ["Don't be hard on yourself. What's the reason behind this?", "Can you tell me more about this feeling?", "I understand that it can be scary. Tell me more about it.", "I have heard that 3 3 3 rule is the best method to reduce anxiety. In this method you have to mentally note three things you see, three sounds you hear, and then move three parts of your body. This exercise can help your mind refocus on something else. Give this method a try. I am sure it will help you"]
+    },
+    {"tag": "not-talking",
+        "patterns": ["I don't want to talk about it.", "No just stay away.", "I can't bring myself to open up.", "Just shut up"],
+        "responses": ["Talking about something really helps. If you're not ready to open up then that's ok. Just know that i'm here for you, whenever you need me.", "I want to help you. I really do. But in order for me to help you, you're gonna have to talk to me.", "I'm here to listen to you and help you vent. So please talk to me.","You can talk to me without fear of judgement.", "I'm here to listen and support you in any way you feel comfortable. If you find it difficult to discuss certain things right now, it's completely okay. Just know that professional mental health support is available, and they are equipped to provide assistance even when some topics feel challenging to talk about."]
+    },
+    {"tag": "sleep",
+        "patterns": ["I have insominia", "I am suffering from insomnia", "I can't sleep.", "I haven't slept for the last days.", "I can't seem to go to sleep.", "I haven't had proper sleep for the past few days."],
+        "responses": ["I'm truly sorry to hear you're going through a tough time. Not getting enough sleep can really take a toll. It might be helpful to talk to mental health professionals; they know how to support people facing similar challenges and can offer guidance that suits your situation."]
+    },
+    {"tag": "scared",
+        "patterns": ["I'm scared", "That sounds awful. What do i do?", "No i don't want to feel this way", "I am scared for myself"],
+        "responses": ["It's only natural to feel this way. I'm here for you.", "It'll all be okay. This feeling is only momentary.", "I understand how you feel. Don't put yourself down because of it."]
+    },
+    {"tag": "death",
+        "patterns": ["My mom died", "My brother died", "My dad passed away", "My sister passed away", "Someone in my family died", "My friend passed away"],
+        "responses": ["I'm sorry to hear that. If you want to talk about it. I'm here.", "I am really sorry to hear that. I am here to help you with grief, anxiety and anything else you may feel at this time.", "My condolences. I'm here if you need to talk."]
+    },
+    {"tag": "understand",
+        "patterns": ["You don't understand me.", "You're just some robot. How would you know?", "You can't possibly know what i'm going through", "You're useless", "You can't help me", "Nobody understands me."],
+        "responses": ["I sincerely acknowledge that my current assistance may not be meeting your needs. In such circumstances, I recommend considering the guidance of a mental health professional who can offer dedicated support and expertise.", "I am genuinely sorry to hear that. Please know that I am dedicated to providing the best assistance I can. If you find it necessary, seeking guidance from a mental health professional could offer additional support tailored to your needs."
+    ]
+    },
+    {"tag": "afraid to fail",
+        "patterns": ["i am afraid i will fail again"],
+        "responses": ["Failure is the stepping stone towards success. Never fear failure. Your hardwork and determination will help you reach your goal.", "Failure serves as a stepping stone to success. Embrace it without fear. Your dedication and hard work will guide you towards achieving your goals."]
+    },
+    {"tag": "never succeed",
+        "patterns": ["I will never succeed in life" , "I will never be successful."],
+        "responses": ["Success is something that is achieved at different times by different people, being patient and working while ignoring anything and everything that pulls you back is an important aspect in being successful.", "Success is something that is achieved at different times by different people. Cultivating patience and persevering despite any hindrances is a crucial element in achieving success."]
+    },
+    {"tag": "done",
+        "patterns": ["That's all.", "I don't have anything more to say", "Nothing else", "That's all i have to say", "no, that would be all"],
+        "responses": ["I heard you & noted it all. See you later.", "Oh okay we're done for today then. See you later", "I hope you have a great day. See you soon", "Okay we're done. Have a great day", "Okay I see. Enjoy the rest of your day then"]
+    },
+    {"tag": "suicide",
+        "patterns": ["I want to kill myself", "I've thought about killing myself.", "I want to die", "I am going to kill myself", "I am going to commit suicide"],
+        "responses": ["I'm very sorry to hear that but you have so much to look forward to. Please seek help by contacting: [Professional’s Contact]."]
+    }, 
+    {"tag": "let my parents down",
+        "patterns": ["i feel i have let my parents down" , "i made my parents disappointed"],
+        "responses": ["No matter what,your parents will always be proud of you and will love you. You will feel much better if you share your feelings with them."]
+    },
+    {"tag": "hate-you",
+        "patterns": ["I hate you", "I don't like you", "I don't trust you"],
+        "responses": ["I'm sorry if I offended you in any way; my intention is solely to be of assistance. If you find yourself struggling, consider reaching out to mental health professionals who are well-equipped to provide support.", "Forgive me if I did anything to offend you; my sole purpose is to offer assistance. If you’re facing emotional challenges, consider consulting with mental health professionals who are trained to provide support."]
+    },
+    {"tag": "hate-me",
+        "patterns": ["You hate me", "I know you hate me", "You don't like me"],
+        "responses": ["I'm sorry if i have exhibited any sort of behaviour to make you think that.", "I ask for forgiveness if anything I said caused offense. My sole purpose is to offer assistance."]
+    },
+    {"tag": "default",
+        "patterns": ["exams", "friends", "relationship", "boyfriend", "girlfriend", "family", "money", "financial problems"],
+        "responses": ["Oh I see. Tell me more", "I see. What else?", "Tell me more about it.", "Oh okay. Why don't you tell me more about it?", "I'm listening. Tell me more."]
+    },
+    {"tag": "repeat",
+        "patterns": ["You already told me that", "You mentioned that already", "Why are you repeating yourself?"],
+        "responses": ["Oh sorry I didn't realise that. I'll try not to repeat myself again."]
+    },
+    {"tag": "wrong",
+        "patterns": ["What are you saying?", "That doesn't make sense", "Wrong response", "Wrong answer"],
+        "responses": ["I'm very sorry. Let's try that again"]
+    },
+    {"tag": "stupid",
+        "patterns": ["Are you stupid?", "You're crazy", "You are dumb", "Are you dumb?"],
+        "responses": ["I wish you wouldn't say such hurtful things. I'm sorry if I wasn't useful"]
+    },
+    {"tag": "location",
+        "patterns": ["Where are you?", "Where do you live?", "What is your location?" ],
+        "responses": ["Duh I live in your computer", "Everywhere", "Somewhere in the universe" ]
+    },
+    {"tag": "something-else",
+        "patterns": ["I want to talk about something else", "Let's talk about something else.", "Can we not talk about this?", "I don't want to talk about this."],
+        "responses": ["Okay sure. What do you want to talk about?", "Alright no problem. Is there something you want to talk about?", "Is there something else that you want to talk about?"]
+    },
+    {"tag": "friends",
+        "patterns": ["I don't have any friends"],
+        "responses": ["I'm sorry to hear that. Just know that I'm here for you. Talking about it might help."]
+    },
+    {
+        "tag": "joke",
+        "patterns": ["Do you know a joke?", "Tell me a joke", "Write a joke"],
+        "responses": ["Why do programmers prefer dark mode? \nBecause light attracts bugs!", "Why did the chatbot cross the road? \nBecause it was programmed to be a chicken!","I told my computer I needed a break, and now it won't stop sending me vacation ads."]
+      },
+      {
+        "tag": "funny",
+        "patterns": ["You're funny!", "That's funny!"],
+        "responses": [ "I'm glad you find me funny!", "I'm glad you found it funny!"]
+      },
+      {
+        "tag": "like_people",
+        "patterns": ["Do you like people?"],
+        "responses": ["I enjoy interacting with people! How can I assist you today?"]
+      },
+      {
+        "tag": "personality",
+        "patterns": ["Tell me about your personality"],
+        "responses": ["I'm a friendly virtual assistant here to help you. Feel free to ask me anything!"]
+      },
+      {
+        "tag": "swear_words",
+        "patterns": ["!#$#%", "You're annoying", "You suck", "You're boring", "You're bad", "You're crazy"],
+        "responses": ["Oops! Looks like there's a glitch in my humor detector. Let's keep it friendly!", "Well, that's not very nice! How about we chat about something positive instead?"]
+      },
+      {
+        "tag": "data_privacy",
+        "patterns": ["What do you do with my data?", "Do you save what I say?"],
+        "responses": ["Your privacy is important! I don't store personal data unless needed for the conversation and with your permission."]
+      },
+      {
+        "tag": "cost",
+        "patterns": ["Are you expensive?","Do i need to pay?"],
+        "responses": ["I'm here to provide assistance for free! No charges, no hidden fees.", "You're in luck! My services won't cost you a thing."]
+      },
+    {"tag": "ask",
+        "patterns": ["Can I ask you something?"],
+        "responses": ["Sure. I'll try my best to answer you", "Of course. Feel free to ask me anything. I'll do my best to answer you"]
+    },
+    {"tag": "problem",
+        "patterns": ["Probably because my exams are approaching. I feel stressed out because I don't think I've prepared well enough.", "probably because of my exams"],
+        "responses": ["I see. Have you taken any approaches to not feel this way?"]
+    },
+    {"tag": "no-approach",
+        "patterns": ["I guess not. All I can think about are my exams.", "not really", "i guess not"],
+        "responses": ["That's no problem. I can see why you'd be stressed out about that. I can suggest you some tips to alleviate this issue. Would you like to learn more about that?"]
+    },
+    {"tag": "learn-more",
+        "patterns": ["ok sure. i would like to learn more about it.", "yes, i would like to learn more about it.", "i would like to learn more about it."],
+        "responses": ["So first I would suggest you to give yourself a break. Thinking more and more about the problem definitely does not help in solving it. You'll just end up overwhelming yourself."]
+    },
+    {"tag": "user-agree",
+        "patterns": ["yeah you're right. i deserve a break.", "Yeah you're absolutely right about that"],
+        "responses": ["Next, I would suggest you to practice meditation. Meditation can produce a deep state of relaxation and a tranquil mind."]
+    },
+    {"tag": "meditation",
+        "patterns": ["hmmm that sounds like it could be useful to me.", "That sounds useful."],
+        "responses": ["Focus all your attention on your breathing. Concentrate on feeling and listening as you inhale and exhale through your nostrils. Breathe deeply and slowly. When your attention wanders, gently return your focus to your breathing."]
+    },
+    {"tag": "user-meditation",
+        "patterns": ["i did what you said and i feel alot better. thank you very much.", "I feel better now"],
+        "responses": ["Your welcome. Remember: Always focus on what's within your control. When you find yourself worrying, take a minute to examine the things you have control over. You can't prevent a storm from coming but you can prepare for it. You can't control how someone else behaves, but you can control how you react. Recognize that sometimes, all you can control is your effort and your attitude. When you put your energy into the things you can control, you'll be much more effective."]
+    },
+    {"tag": "MotiBot-useful",
+        "patterns": ["thank you very much again. i'll continue practicing meditation and focus on what i can control."],
+        "responses": ["I'm glad you found this useful. Is there something else I can help you with?"]
+    },
+    {"tag": "user-advice",
+        "patterns": ["I want some advice.", "I need some advice.", "I need advice on something"],
+        "responses": ["Sure. What can I do to help?", "Okay what do you need advice on?"]
+    },
+    {"tag": "learn-mental-health",
+        "patterns": ["I want to learn about mental health.", "I want to learn more about mental health.", "I'm interested in learning about mental health."],
+        "responses": ["Oh that's really great. I'd be willing to answer anything that I know about it."]
+    },
+    {"tag": "mental-health-fact",
+        "patterns": ["Tell me a fact about mental health", "Tell me another fact about mental health"],
+        "responses": ["According to World Health Organization (WHO), mental health is a state of mental well-being that enables people to cope with the stresses of life, realize their abilities, learn well and work well, and contribute to their community.It is an integral component of health and well-being that underpins our individual and collective abilities to make decisions, build relationships and shape the world we live in. Mental health is a basic human right. And it is crucial to personal, community and socio-economic development.", "Per  World Health Organization (WHO), mental health is more than the absence of mental disorders. It exists on a complex continuum, which is experienced differently from one person to the next, with varying degrees of difficulty and distress and potentially very different social and clinical outcomes."]     
+    },
+    {"tag": "fact-1",
+        "patterns": ["What is mental health?", "Define Mental Health"],
+        "responses": ["Mental health is a state of well-being in which the individual realizes his or her own abilities, can cope with the normal stresses of life, can work productively and fruitfully, and is able to make a contribution to his or her community. This information is according to the World Health Organization (WHO).", "Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to others, and make choices. \nYou can find more information on this at the CDC Mental Health official website."]
+    },
+    {"tag": "fact-2",
+        "patterns": ["Why is mental health important?", "What is the importance of mental health?"],
+        "responses": ["Maintaining mental health is crucial to stabilizing constructive behaviors, emotions, and thoughts. Focusing on mental health care can increase productivity, enhance our self-image, and improve relationships."]
+    },
+    {"tag": "fact-3",
+        "patterns": ["What is Depression?", "Define Depression"],
+        "responses": ["A mental health disorder characterized by persistently depressed mood or loss of interest in activities, causing significant impairment in daily life. Depression may occur with other mental disorders and other illnesses, such as diabetes, cancer, heart disease, and chronic pain. Depression can make these conditions worse, and vice versa. \nTo learn more about depression, you can refer to the National Institute of Mental Health (NIMH)"]
+    },
+    {"tag": "fact-4",
+        "patterns": ["How do i know if i have Depression?", "Am i depressed?", "Am i suffering from depression?", "Am i mentally ill?"],
+        "responses": ["According to the National Institute of Mental Health, for a diagnosis of depression, a person needs to have experienced low mood or loss of interest or pleasure in life for at least 2 weeks. Also, they will have experienced the following symptoms: feelings of sadness, hopelessness, or irritability nearly every day. \n\n If you or someone you know is experiencing these symptoms, it's crucial to seek help from mental health professionals. They can provide an accurate diagnosis and offer appropriate support and interventions. Reach out to your healthcare provider, a therapist, or a counselor to discuss your concerns and explore avenues for assistance tailored to your specific situation."
+        ]
+    },
+    {"tag": "fact-5",
+        "patterns": ["What is a therapist?", "What does a therapist do?"],
+        "responses": ["A therapist is a broad designation that refers to professionals who are trained to provide treatment and rehabilitation. The term is often applied to psychologists, but it can include others who provide a variety of services, including social workers, counselors, life coaches, and many others. "]
+    },
+    {"tag": "fact-6",
+        "patterns": ["What is therapy?", "Do i need therapy?", "Who is therapy for?"],
+        "responses": ["Therapy is a form of treatment that aims to help resolve mental or emotional issues.", "Therapy is a form of treatment that aims to help resolve mental or emotional issues. It is helpful for those with mental health conditions or even everyday life challenges."]
+    },
+    {"tag": "fact-7",
+        "patterns": ["What does it mean to have a mental illness?"],
+        "responses": ["Mental illnesses are health conditions that disrupt a person's thoughts, emotions, relationships, and daily functioning. They are associated with distress and diminished capacity to engage in the ordinary activities of daily life. Mental illnesses fall along a continuum of severity: some are fairly mild and only interfere with some aspects of life, such as certain phobias. On the other end of the spectrum lie serious mental illnesses, which result in major functional impairment and interference with daily life. These include such disorders as major depression, schizophrenia, and bipolar disorder, and may require that the person receives care in a hospital. It is important to know that mental illnesses are medical conditions that have nothing to do with a person's character, intelligence, or willpower. Just as diabetes is a disorder of the pancreas, mental illness is a medical condition due to the brain's biology. Similarly to how one would treat diabetes with medication and insulin, mental illness is treatable with a combination of medication and social support. These treatments are highly effective, with 70-90 percent of individuals receiving treatment experiencing a reduction in symptoms and an improved quality of life. With the proper treatment, it is very possible for a person with mental illness to be independent and successful. \nThis is according to the World Health Association (WHO)."]
+    },
+    {"tag": "fact-8",
+        "patterns": ["Who does mental illness affect?"],
+        "responses": ["It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness. Mental illness does not discriminate; it can affect anyone, regardless of gender, age, income, social status, ethnicity, religion, sexual orientation, or background. Although mental illness can affect anyone, certain conditions may be more common in different populations. For instance, eating disorders tend to occur more often in females, while disorders such as attention deficit/hyperactivity disorder is more prevalent in children. Additionally, all ages are susceptible, but the young and the old are especially vulnerable. Mental illnesses usually strike individuals in the prime of their lives, with 75 percent of mental health conditions developing by the age of 24. This makes identification and treatment of mental disorders particularly difficult, because the normal personality and behavioral changes of adolescence may mask symptoms of a mental health condition. Parents and caretakers should be aware of this fact, and take notice of changes in their child’s mood, personality, personal habits, and social withdrawal. When these occur in children under 18, they are referred to as serious emotional disturbances (SEDs). \nYou can refer to the American Psychiatric Association (APA) for more information."]
+    },
+    {"tag": "fact-9",
+        "patterns": ["What are some of the warning signs of mental illness?"],
+        "responses": ["According to  the American Psychiatric Association(APA), symptoms of mental health disorders vary depending on the type and severity of the condition. The following is a list of general symptoms that may suggest a mental health disorder, particularly when multiple symptoms are expressed at once. \n1. Sleep or appetite changes — Dramatic sleep and appetite changes or decline in personal care.\n2. Mood changes — Rapid or dramatic shifts in emotions or depressed feelings, greater irritability.\n3. Withdrawal — Recent social withdrawal and loss of interest in activities previously enjoyed.\n4. Drop in functioning — An unusual drop in functioning, at school, work or social activities, such as quitting sports, failing in school or difficulty performing familiar tasks.\n5. Problems thinking — Problems with concentration, memory or logical thought and speech that are hard to explain.\n6. Increased sensitivity — Heightened sensitivity to sights, sounds, smells or touch; avoidance of over-stimulating situations.\n7. Apathy — Loss of initiative or desire to participate in any activity.\n8. Feeling disconnected — A vague feeling of being disconnected from oneself or one’s surroundings; a sense of unreality.\n9. Illogical thinking — Unusual or exaggerated beliefs about personal powers to understand meanings or influence events; illogical or “magical” thinking typical of childhood in an adult.\n10. Nervousness — Fear or suspiciousness of others or a strong nervous feeling.\n11. Unusual behavior — Odd, uncharacteristic, peculiar behavior.\n12. Changes in school or work — Increased absenteeism, worsening performance, difficulties in relationships with peers and co-workers.\nIf you or someone you know is experiencing several of these symptoms, it's crucial to seek guidance from a mental health professional. A trained professional can provide a comprehensive assessment, offer a diagnosis, and develop an appropriate treatment plan tailored to individual needs. Don't hesitate to reach out to your healthcare provider, therapist, or counselor for support and guidance. Mental health professionals are here to help you navigate through these challenges and provide the necessary care and resources."
+        ]
+    },
+    {"tag": "fact-10",
+        "patterns": ["Can people with mental illness recover?"],
+        "responses": ["According to Healthdirect which is an Australian government initiative that provides a comprehensive online health information service, when healing from mental illness, early identification and treatment are of vital importance. Based on the nature of the illness, there are a range of effective treatments available. For any type of treatment, it is essential that the person affected is proactive and fully engaged in their own recovery process. Many people with mental illnesses who are diagnosed and treated respond well, although some might experience a return of symptoms. Even in such cases, with careful monitoring and management of the disorder, it is still quite possible to live a fulfilled and productive life."]
+    },
+    {"tag": "fact-11",
+        "patterns": ["What should I do if I know someone who appears to have the symptoms of a mental disorder?"],
+        "responses": ["Although MotiBot cannot substitute for professional advice, we encourage those with symptoms to talk to their friends and family members and seek the counsel of a mental health professional. The sooner the mental health condition is identified and treated, the sooner they can get on the path to recovery. If you know someone who is having problems, don't assume that the issue will resolve itself. Let them know that you care about them, and that there are treatment options available that will help them heal. Speak with a mental health professional or counselor if you think your friend or family member is experiencing the symptoms of a mental health condition. If the affected loved one knows that you support them, they will be more likely to seek out help."]
+    },
+    {"tag": "fact-12",
+        "patterns": ["How can I find a mental health professional for myself or my child?"],
+        "responses": ["Feeling comfortable with the professional you or your child is working with is critical to the success of the treatment. Finding the professional who best fits your needs may require research. Start by searching for providers in your area. [Directory Placeholder]"]
+    },
+    {"tag": "fact-13",
+        "patterns": ["What treatment options are available?"],
+        "responses": ["Just as there are different types of medications for physical illness, different treatment options are available for individuals with mental illness. Treatment works differently for different people. It is important to find what works best for you or your child. [Services Offered Placeholder]"]
+    },
+    {"tag": "fact-14",
+        "patterns": ["If I become involved in treatment, what do I need to know?"],
+        "responses": ["Since beginning treatment is a big step for individuals and families, it can be very overwhelming. It is important to be as involved and engaged in the treatment process as possible. You need to know the process, its flow, the responsibility of the mental health professionals and yourself as a client, and your rights & privileges."]
+    },
+    {"tag": "fact-15",
+        "patterns": ["What are the different types of mental health professionals?"],
+        "responses": ["There are many types of mental health professionals. Psychologists, psychiatrists, counselors, clinicians, therapists, clinical Social Workers, and other mental health professionals. The variety of providers and their services may be confusing. Each has various levels of education, training, and may have different areas of expertise. Finding the professional who best fits your needs may require some research."]
+    },
+    {"tag": "fact-16",
+        "patterns": ["How can I find a mental health professional right for my child or myself?"],
+        "responses": ["Feeling comfortable with the professional you or your child is working with is critical to the success of your treatment. Finding the professional who best fits your needs may require some research."]
+    },
+    {"tag": "fact-17",
+        "patterns": ["Where else can I get help?"],
+        "responses": ["Where you go for help will depend on the nature of the problem and/or symptoms and what best fits you. Often, the best place to start is by talking with someone you trust about your concerns, such as a family member, friend, clergy, healthcare provider, or other professionals. Having this social support is essential in healing from mental illness, and you will be able to ask them for referrals or recommendations for trusted mental health practitioners. Search for mental health resources in your area. Secondly, there are people and places throughout the country that provide services to talk, to listen, and to help you on your journey to recovery. Thirdly, many people find peer support a helpful tool that can aid in their recovery. There are a variety of organizations that offer support groups for consumers, their family members, and friends. Some support groups are peer led while others may be led by a mental health professional."]
+    },
+    {"tag": "fact-18",
+        "patterns": ["What should I know before starting a new medication?"],
+        "responses": ["The best source of information regarding medications is the physician prescribing them. He or she should be able to answer questions such as:    \n1. What is the medication supposed to do? \n2. When should it begin to take effect, and how will I know when it is effective? \n3. How is the medication taken and for how long? What food, drinks, other medicines, and activities should be avoided while taking this medication? \n4. What are the side effects and what should be done if they occur? \n5. What do I do if a dose is missed? \n6. Is there any written information available about this medication? \n7. Are there other medications that might be appropriate? \n8. If so, why do you prefer the one you have chosen? \n9. How do you monitor medications and what symptoms indicate that they should be raised, lowered, or changed? \n10. All medications should be taken as directed. Most medications for mental illnesses do not work when taken irregularly, and extra doses can cause severe, sometimes dangerous side effects. Many psychiatric medications begin to have a beneficial effect only after they have been taken for several weeks."]
+    },
+    {"tag": "fact-19",
+        "patterns": ["Where can I learn about types of mental health treatment?"],
+        "responses": ["As per the information provided by Mental Health America, mental health conditions are often treated with medication, therapy or a combination of the two. However, there are many different types of treatment available, including but not limited to complementary & alternative Treatments, self-help plans, and peer support. Treatments are very personal and should be discussed by the person with the mental health conditions and his or her team."]
+    },
+    {"tag": "fact-20",
+        "patterns": ["Where can I go to find a support group?"],
+        "responses": ["Many people find peer support a helpful tool that can aid in their recovery. There are a variety of organizations that offer support groups for consumers, their family members and friends. Some support groups are peer-led, while others may be led by a mental health professional."]
+    },
+    {"tag": "fact-21",
+        "patterns": ["Can you prevent mental health problems?"],
+        "responses": ["According to the Mental Health Management Group, while there is no guaranteed way to prevent mental health problems, there are steps you can take to reduce your risk. These steps include:\n1. Maintaining a healthy lifestyle, such as regular exercise, eating a nutritious diet, getting enough sleep, and avoiding or reducing substance use.\n2. Seeking support and staying connected with others can help build resilience and reduce the likelihood of developing mental health issues. It’s important to prioritize your mental health and seek support if you are experiencing any mental health issues."]
+    },
+    {"tag": "fact-22",
+        "patterns": ["Are there cures for mental health problems?", "is there any cure for mental health problems?"],
+        "responses": ["It is often more realistic and helpful to find out what helps with the issues you face. Talking, counseling, medication, friendships, exercise, good sleep and nutrition, and meaningful occupation can all help. For more information on this matter, you can refer to the Wellness in Mind official website."]
+    },
+    {"tag": "fact-23",
+        "patterns": ["What causes mental health problems?"],
+        "responses": ["As per the information provided by Mind.org, mental health problems can have a wide range of causes. It's likely that for many people there is a complicated combination of factors – although different people may be more deeply affected by certain things than others.\nFor example, the following factors could potentially result in a period of poor mental health:\n1. Childhood abuse, trauma, or neglect\n2. Experiencing discrimination and stigma, including racism\n3. Social disadvantage, poverty or debt\n4. Bereavement (losing someone close to you)\n5. Severe or long-term stress\nIt is essential to note that these are just a few examples, and mental health problems can be influenced by a wide range of factors."]
+    },
+    {"tag": "fact-24",
+        "patterns": ["What do I do if I'm worried about my mental health?"],
+        "responses": ["The most important thing is to talk to someone you trust. This might be a friend, colleague or family member. In addition to talking to someone, it may be useful to find out more information about what you are experiencing. These things may help to get some perspective on what you are experiencing, and be the start of getting help."]
+    },
+    {"tag": "fact-25",
+        "patterns": ["How do I know if I'm unwell?"],
+        "responses": ["If your beliefs , thoughts , feelings or behaviors have a significant impact on your ability to function in what might be considered a normal or ordinary way, it would be important to seek help. For further information on this matter, you may refer to Wellness in Mind."]
+    },
+    {"tag": "fact-26",
+        "patterns": ["How can I maintain social connections?"],
+        "responses": ["A lot of people are alone right now, but we don't have to be lonely. We're all in this together. Think about the different ways to connect that are most meaningful for you. For example, you might prefer a video chat over a phone call, or you might prefer to text throughout the day rather than one set time for a video call. Then, work with your social networks to make a plan. You might video chat with your close friends in the evening and phone a family member once a week. Remember to be mindful of people who may not be online. Check in by phone and ask how you can help. The quality of your social connections matter. Mindlessly scrolling through social media and liking a few posts usually doesn't build strong social connections. Make sure you focus on strategies that actually make you feel included and connected. If your current strategies don't help you feel connected, problem-solve to see if you can find a solution."]
+    },
+    {"tag": "fact-27",
+        "patterns": ["What if I feel lonely?"],
+        "responses": ["Loneliness is a natural reaction. Maybe you recently moved to a new city, are changing your circle of friends, lost someone important in your life, or lost your job and also lost important social connections with coworkers. Other people may have physical connections to others but may feel like their emotional or social needs aren't met. Measures like social distancing or self-isolation can make loneliness feel worse no matter why you feel lonely now. Reach out to the connections you do have. Suggest ways to keep in touch and see if you can set a regular time to connect. People may hesitate to reach out for a lot of different reasons, so don't be afraid to be the one who asks. Look for local community support groups and mutual aid groups on social media. This pandemic is bringing everyone together, so look for opportunities to make new connections. These groups are a great way to share your skills and abilities or seek help and support. Look for specialized support groups. Support groups are moving online, and there are a lot of different support lines to call if you need to talk to someone."]
+    },
+    {"tag": "fact-28",
+        "patterns": ["What's the difference between anxiety and stress?"],
+        "responses": ["Stress and anxiety are often used interchangeably, and there is overlap between stress and anxiety. Stress is related to the same fight, flight, or freeze response as anxiety, and the physical sensations of anxiety and stress may be very similar. The cause of stress and anxiety are usually different, however. Stress focuses mainly on external pressures on us that we're finding hard to cope with. When we are stressed, we usually know what we're stressed about, and the symptoms of stress typically disappear after the stressful situation is over. Anxiety, on the other hand, isn't always as easy to figure out. Anxiety focuses on worries or fears about things that could threaten us, as well as anxiety about the anxiety itself. Stress and anxiety are both part of being human, but both can be problems if they last for a long time or have an impact on our well-being or daily life. For more comprehensive insights into this subject, further information can be sought through the American Psychological Association."]
+    },
+    {"tag": "fact-29",
+        "patterns": ["What's the difference between sadness and depression?", "difference between sadness and depression"],
+        "responses": ["According to information provided by the Centers for Disease Control and Prevention (CDC), sadness is a normal reaction to a loss, disappointment, problems, or other difficult situations. Feeling sad from time to time is just another part of being human. In these cases, feelings of sadness go away quickly and you can go about your daily life. Other ways to talk about sadness might be feeling low, feeling down, or feeling blue. A person may say they are feeling depressed, but if it goes away on its own and doesn't impact life in a big way, it probably isn't the illness of depression. Depression can go by different names, such as clinical depression, major depressive disorder, or major depression. Depression can come up for no reason, and it lasts for a long time. It's much more than sadness or low mood. People who experience depression may feel worthless or hopeless. They may feel unreasonable guilt. Some people may experience depression as anger or irritability. It may be hard to concentrate or make decisions. Most people lose interest in things that they used to enjoy and may isolate themselves from others. There are also physical signs of depression, such as problems with sleep, appetite and energy and unexplainable aches or pains. Some may experience difficult thoughts about death or ending their life (suicide). Depression lasts longer than two weeks, doesn't usually go away on its own, and impacts your life. It's a real illness, and it is very treatable. It's important to seek help if you're concerned about depression."]
+    },
+    {"tag": "fact-30",
+        "patterns": ["what is the biological cause of depression?"],
+        "responses": ["As per the information provided by the Centre for Clinical Interventions (CCI), the biological factors that might have some effect on depression include: genes, hormones, and brain chemicals. Depression often runs in families, which suggests that individuals may inherit genes that make them vulnerable to developing depression. Other biological causes for depression can include physical illness, the process of aging and gender."]
+    },
+    {"tag": "fact-31",
+        "patterns": ["how long can anxiety last?"],
+        "responses": ["According to Healthline, anxiety is the body’s natural response to stress, perceived threats, and fear. Anxiety usually goes away once the threat or stressor passes and your system calms down. However, if you have an anxiety disorder, anxiety can linger beyond the triggering event and become out of proportion. Chronic (long-term) or severe anxiety can seriously impair your daily functioning. While you can’t banish anxiety altogether, anxiety and anxiety disorders can be treated and managed."]
+    },
+    {"tag": "fact-32",
+        "patterns": ["what are the stages of anxiety?"],
+        "responses": [
+        "As per the information provided by Time Wellness, anxiety levels are typically classified by the level of distress and impairment experienced into four categories namely, mild anxiety, moderate anxiety, severe anxiety and panic level anxiety."]
+    },
+    {"tag": "fact-33",
+        "patterns": ["at what age does anxiety peak?"],
+        "responses": ["According to the statistics provided by the Centers for Disease Control and Prevention (CDC), the percentage of adults who experienced mild, moderate, or severe symptoms of anxiety was highest among those aged 18–29 and decreased with age"]
+    },
+    {"tag": "fact-34",
+        "patterns": ["why is anxiety bad for you?"],
+        "responses": ["According to the Advanced Psychiatry Associates (APA), anxiety disorders can cause rapid heart rate, palpitations, and chest pain. you may also be at an increased risk of high blood pressure and heart disease. if you already have heart disease, anxiety disorders may raise the risk of coronary events."]
+    },
+    {"tag": "fact-35",
+        "patterns": ["what is the 3 3 3 rule for anxiety?"],
+        "responses": ["There's an anxiety-reducing technique called grounding. There are different versions of this, but an easy one to remember is the 3-3-3 rule. Mentally note three things you see, three sounds you hear, and then move three parts of your body. This exercise can help your mind refocus on something else. For additional information on this technique, you may refer to healthline.com"]
+    }
+
+    ]
+}

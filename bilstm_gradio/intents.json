@@ -1,0 +1,269 @@
+{
+    "intents": [
+        {"tag": "What does it mean to have a mental illness?",
+            "patterns": [
+                "What does it mean to have a mental illness?", 
+                "what it means to have mental illness?",
+                "What does having a mental disease entail?",
+                "What does it mean to suffer from a mental illness?"
+            ],
+            "responses": [
+                "Mental illnesses are health conditions that disrupt a person's thoughts, emotions, relationships, and daily functioning. They are associated with distress and diminished capacity to engage in the ordinary activities of daily life.\nMental illnesses fall along a continuum of severity: some are fairly mild and only interfere with some aspects of life, such as certain phobias. On the other end of the spectrum lie serious mental illnesses, which result in major functional impairment and interference with daily life. These include such disorders as major depression, schizophrenia, and bipolar disorder, and may require that the person receives care in a hospital.\nIt is important to know that mental illnesses are medical conditions that have nothing to do with a person's character, intelligence, or willpower. Just as diabetes is a disorder of the pancreas, mental illness is a medical condition due to the brainâ€™s biology.\nSimilarly to how one would treat diabetes with medication and insulin, mental illness is treatable with a combination of medication and social support. These treatments are highly effective, with 70-90 percent of individuals receiving treatment experiencing a reduction in symptoms and an improved quality of life. With the proper treatment, it is very possible for a person with mental illness to be independent and successful."
+            ]
+        },
+        {"tag": "Who does mental illness affect?",
+            "patterns": [
+                "Who does mental illness affect?" , "Who is affected by mental illness?" , "Who are the victims of mental illness?"
+            ],
+            "responses": [
+                " Mental illness does not discriminate; it can affect anyone, regardless of gender, age, income, social status, ethnicity, religion, sexual orientation, or background.\nAlthough mental illness can affect anyone, certain conditions may be more common in different populations. For instance, eating disorders tend to occur more often in females, while disorders such as attention deficit/hyperactivity disorder is more prevalent in children.\nAdditionally, all ages are susceptible, but the young and the old are especially vulnerable. Mental illnesses usually strike individuals in the prime of their lives, with 75 percent of mental health conditions developing by the age of 24. This makes identification and treatment of mental disorders particularly difficult, because the normal personality and behavioral changes of adolescence may mask symptoms of a mental health condition.\nParents and caretakers should be aware of this fact, and take notice of changes in their child's mood, personality, personal habits, and social withdrawal. When these occur in children under 18, they are referred to as serious emotional disturbances (SEDs)."
+            ]
+        },
+        {
+        "tag": "What are some of the warning signs of mental illness?",
+        "patterns": [
+            "What are some of the warning signs of mental illness?" , "What are the indications of mental illness?"
+        ],
+        "responses": [
+            "Symptoms of mental health disorders vary depending on the type and severity of the condition. The following is a list of general symptoms that may suggest a mental health disorder, particularly when multiple symptoms are expressed at once.\nIn adults:\nConfused thinking\nLong-lasting sadness or irritability\nExtreme highs and lows in mood\nExcessive fear, worrying, or anxiety\nSocial withdrawal\nDramatic changes in eating or sleeping habits\nStrong feelings of anger\nDelusions or hallucinations (seeing or hearing things that are not really there)\nIncreasing inability to cope with daily problems and activities\nThoughts of suicide\nDenial of obvious problems\nMany unexplained physical problems\nAbuse of drugs and/or alcohol\n  In older children and pre-teens:\nAbuse of drugs and/or alcohol\nInability to cope with daily problems and activities\nChanges in sleeping and/or eating habits\nExcessive complaints of physical problems\nDefying authority, skipping school, stealing, or damaging property\nIntense fear of gaining weight\nLong-lasting negative mood, often along with poor appetite and thoughts of death\nFrequent outbursts of anger\n  In younger children:\nChanges in school performance\nPoor grades despite strong efforts\nExcessive worrying or anxiety\nHyperactivity\nPersistent nightmares\nPersistent disobedience and/or aggressive behavior\nFrequent temper tantrums"
+        ]
+        },
+        {
+            "tag": "Can people with mental illness recover?",
+            "patterns": [
+                "Can people with mental illness recover?" , "Can someone suffering from mental illness recover?"
+            ],
+            "responses": [
+                " When healing from mental illness, early identification and treatment are of vital importance. Based on the nature of the illness, there are a range of effective treatments available. For any type of treatment, it is essential that the person affected is proactive and fully engaged in their own recovery process.\nMany people with mental illnesses who are diagnosed and treated respond well, although some might experience a return of symptoms. Even in such cases, with careful monitoring and management of the disorder, it is still quite possible to live a fulfilled and productive life."
+            ]
+        },
+        {
+            "tag": "What should I do if I know someone who appears to have the symptoms of a mental disorder?",
+            "patterns": [
+                "What should I do if I know someone who appears to have the symptoms of a mental disorder?" , "What should I do if I come across a friend who seems to be experiencing the signs of a mental illness?" , "What should I do if I know someone who seems to be suffering from mental disorders?"
+            ],
+            "responses": [
+                "Although this website cannot substitute for professional advice, we encourage those with symptoms to talk to their friends and family members and seek the counsel of a mental health professional. The sooner the mental health condition is identified and treated, the sooner they can get on the path to recovery.\nIf you know someone who is having problems, don't assume that the issue will resolve itself. Let them know that you care about them, and that there are treatment options available that will help them heal. Speak with a mental health professional or counselor if you think your friend or family member is experiencing the symptoms of a mental health condition. If the affected loved one knows that you support them, they will be more likely to seek out help."
+            ]
+            },
+            {
+                "tag": "How can I find a mental health professional for myself or my child?",
+                "patterns": [
+                    "How can I find a mental health professional for myself or my child?"
+                ],
+                "responses": [
+                    "Feeling comfortable with the professional you or your child is working with is critical to the success of the treatment. Finding the professional who best fits your needs may require research. Start by searching for providers in your area."
+                ]
+                },
+                {
+                    "tag": "What is the difference between mental health professionals?",
+                    "patterns": [
+                        "What is the difference between mental health professionals?" , "Types of mental health professionals"
+                    ],
+                    "responses": [
+                        " There are many types of mental health professionals. The variety of providers and their services may be confusing. Each have various levels of education, training, and may have different areas of expertise. Finding the professional who best fits your needs may require some research.", "There are many types of mental health professionals. Finding the right one for you may require some research."
+                    ]
+                },
+                {
+                    "tag": "Where else can I get help?",
+                    "patterns": [
+                        "Where else can I get help?" 
+                    ],
+                    "responses": [
+                        "Where you go for help will depend on the nature of the problem and/or symptoms and what best fits you. Often, the best place to start is by talking with someone you trust about your concerns, such as a family member, friend, clergy, healthcare provider, or other professionals. Having this social support is essential in healing from mental illness, and you will be able to ask them for referrals or recommendations for trusted mental health practitioners. Search for mental health resources in your area.\nSecondly, there are people and places throughout Nebraska that provide services to talk, to listen, and to help you on your journey to recovery. Thirdly, many people find peer support a helpful tool that can aid in their recovery. There are a variety of organizations that offer support groups for consumers, their family members, and friends. Some support groups are peer led while others may be led by a mental health professional."
+                    ]
+                },
+                {
+                    "tag": "Where can I learn about types of mental health treatment?",
+                    "patterns": [
+                        "Where can I learn about types of mental health treatment?" 
+                    ],
+                    "responses": [
+                        "Mental health conditions are often treated with medication, therapy or a combination of the two. However, there are many different types of treatment available, including Complementary & Alternative Treatments, self-help plans, and peer support. Treatments are very personal and should be discussed by the person with the mental health conditions and his or her team."
+                    ]
+                },
+                {
+                    "tag": "Where can I go to find a support group?",
+                    "patterns": [
+                        "Where can I go to find a support group?" 
+                    ],
+                    "responses": [
+                        "Many people find peer support a helpful tool that can aid in their recovery. There are a variety of organizations that offer support groups for consumers, their family members and friends. Some support groups are peer-led, while others may be led by a mental health professional."
+                    ]
+                },
+        {
+            "tag": "what is depression?",
+            "patterns": [
+                "what is depression?"
+            ],
+            "responses": [
+                "Depression is a common and serious medical illness that negatively affects how you feel, the way you think and how you act.fortunately,it is also treatable.depression causes feelings of sadness and/or a loss of interest in activities you once enjoyed. It can lead to a variety of emotional and physical problems and can decrease your ability to function at work and at home."
+            ]
+        },
+        {
+            "tag": "what are the types of depression?",
+            "patterns": [
+                "what are the types of depression?", "Forms of depression"
+            ],
+            "responses": [
+                "There are many different forms of depression but most common types are.clinical depression,persistent depressive disorder,bipolar disorder,postnatal disorder."
+            ]
+        },
+        {
+            "tag": "i want to kill myself",
+            "patterns": [
+                "i want to kill myself", "I want to die"
+            ],
+            "responses": [
+                "I'm really sorry to hear that you're feeling this way, but I can't provide the help that you need. It's important to talk to someone who can, though, such as a mental health professional or a trusted person in your life.. Also always remember that you mean something to someone."
+            ]
+        },
+
+        {
+            "tag": "what are the causes of depression?",
+            "patterns": [
+                "what are the causes of depression?"
+            ],
+            "responses": [
+                "It's complicated, and there are multiple causes of major depression. Factors such as genetic vulnerability, severe life stressors, substances you may take (some medications, drugs and alcohol) and medical conditions can affect the way your brain regulates your moods."
+            ]
+        },
+        {
+            "tag": "what are the top causes of depression?",
+            "patterns": [
+                "what are the top causes of depression?"
+            ],
+            "responses": [
+                "Abuse. Past physical, sexual, or emotional abuse can increase the vulnerability to clinical depression later in life."
+            ]
+        },
+        {
+            "tag": "which age group has the highest rate of depression?",
+            "patterns": [
+                "which age group has the highest rate of depression?"
+            ],
+            "responses": [
+                "This number represented 7.1% of all u.s. adults. the prevalence of major depressive episode was higher among adult females (8.7%) compared to males (5.3%). the prevalence of adults with a major depressive episode was highest among individuals aged 18-25 (13.1%)."
+            ]
+        },
+        {
+            "tag": "is school a cause of depression?",
+            "patterns": [
+                "is school a cause of depression?"
+            ],
+            "responses": [
+                "Not only does school sometimes contribute to depression, depression can also interfere with school. Moreover, research shows that 75 percent of all mental health conditions begin by age 24. hence, the college years are a critical time for understanding and talking about teen mental health."
+            ]
+        },
+        {
+            "tag": "what is the biological cause of depression?",
+            "patterns": [
+                "what is the biological cause of depression?"
+            ],
+            "responses": [
+                "There is no single cause for depression; rather it's a combination of stress and a person's vulnerability to developing depression. the predisposition to developing depression can be inherited. other biological causes for depression can include physical illness, the process of ageing and gender."
+            ]
+        },
+        {
+            "tag": "how does depression affect the world?",
+            "patterns": [
+                "how does depression affect the world?"
+            ],
+            "responses": [
+                "Depression is a leading cause of disability worldwide and is a major contributor to the overall global burden of disease. more women are affected by depression than men. depression can lead to suicide. there are effective psychological and pharmacological treatments for moderate and severe depression."
+            ]
+        },
+        {
+            "tag": "what is the meaning of anxiety and depression?",
+            "patterns": [
+                "what is the meaning of anxiety and depression?" , "Difference between anxiety and depression"
+            ],
+            "responses": [
+                "Depression and anxiety disorders are different, but people with depression often experience symptoms similar to those of an anxiety disorder, such as nervousness, irritability, and problems sleeping and concentrating. But each disorder has its own causes and its own emotional and behavioral symptoms."
+            ]
+        },
+        {
+            "tag": "does oversleeping cause depression?",
+            "patterns": [
+                "does oversleeping cause depression?"
+            ],
+            "responses": [
+                "It's important to remember that oversleeping is a possible symptom of depression and that oversleeping doesn't cause depression. But it can exacerbate and worsen depression symptoms"
+            ]
+        },
+        {
+            "tag": "can lack of sleep make you feel sad?",
+            "patterns": [
+                "can lack of sleep make you feel sad?"
+            ],
+            "responses": [
+                "Studies show people who are sleep deprived report increases in negative moods (anger, frustration, irritability, sadness) and decreases in positive moods. and sleeplessness is often a symptom of mood disorders, such as depression and anxiety."
+            ]
+        },
+        {
+            "tag": "is depression a side effect of diabetes?",
+            "patterns": [
+                "is depression a side effect of diabetes?"
+            ],
+            "responses": [
+                "Ff you have diabetes either type 1 or type 2 you have an increased risk of developing depression. and if you're depressed, you may have a greater chance of developing type 2 diabetes. the good news is that diabetes and depression can be treated together."
+            ]
+        },
+        {
+            "tag": "can low blood sugar cause suicidal thoughts?",
+            "patterns": [
+                "can low blood sugar cause suicidal thoughts?"
+            ],
+            "responses": [
+                "The observed association between plasma glucose levels, insulin resistance and suicidal behaviour suggests that disturbances in glucose metabolism are associated with suicidal ideation and attempts."
+            ]
+        },
+
+        {
+            "tag": "do we control our thoughts?",
+            "patterns": [
+                "do we control our thoughts?"
+            ],
+            "responses": [
+                "We are aware of a tiny fraction of the thinking that goes on in our minds, and we can control only a tiny part of our conscious thoughts. The vast majority of our thinking efforts goes on subconsciously. ... slips of the tongue and accidental actions offer glimpses of our unfiltered subconscious mental life."
+            ]
+        },
+        {
+            "tag": "how many thoughts a day do we have?",
+            "patterns": [
+                "how many thoughts a day do we have?"
+            ],
+            "responses": [
+                "A new study has suggested that an average person has 6,200 thoughts per day. thousands of thoughts cross our mind through the day. many people even complain that they can't sleep immediately after going to bed as their brain does not stop thinking."
+            ]
+        },
+        {
+            "tag": "how can we reduce anxiety?",
+            "patterns": [
+                "how can we reduce anxiety?"
+            ],
+            "responses": [
+                "3 3 3 rule is the best method to reduce anxiety.in this method you have to mentally note three things you see, three sounds you hear, and then move three parts of your body. this exercise can help your mind refocus on something else."
+            ]
+        },
+        {
+            "tag": "no one likes me!",
+            "patterns": [
+                "no one likes me!" , "Everybody hates me"
+            ],
+            "responses": [
+                "You really think that? I'd suggest you try helping someone who really needs your help you'll straight up get a person to like you just by being nice. kindness is the best gift you can offer to anyone :)"
+            ]
+        },
+
+        {
+            "tag": "i am feeling anxious lately.",
+            "patterns": [
+                "i am feeling anxious lately."
+            ],
+            "responses": [
+                "i have heard that 3 3 3 rule is the best method to reduce anxiety.in this method you have to mentally note three things you see, three sounds you hear, and then move three parts of your body.this exercise can help your mind refocus on something else.give this method a try i am sure it will help you"
+            ]
+        }
+    ]
+}
