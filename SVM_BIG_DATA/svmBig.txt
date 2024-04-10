@@ -1,0 +1,4 @@
+Total Accuracy: 0.9082222222222223
+Overall Precision: 0.9156957100235347
+Overall Recall: 0.9082222222222224
+Overall F1-score: 0.9087041528570632
